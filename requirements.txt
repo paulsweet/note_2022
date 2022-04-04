@@ -1,4 +1,4 @@
-yummy_sphinx_theme
+sphinx_theme
 sphinx-rtd-theme
 recommonmark
 sphinx-markdown-tables

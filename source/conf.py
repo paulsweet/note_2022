@@ -58,7 +58,10 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 # html_theme = 'alabaster'
-html_theme = 'yummy_sphinx_theme'
+import sphinx_theme
+html_theme = 'stanford_theme'
+html_theme_path = [sphinx_theme.get_html_theme_path('stanford-theme')]
+
 
 # The master toctree document.
 master_doc = 'index'
@@ -75,3 +78,4 @@ html_context = {
     "github_version": "master", # Version
     "conf_py_path": "/source/", # Path in the checkout to the docs root
 }
+
